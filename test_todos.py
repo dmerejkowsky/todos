@@ -11,7 +11,10 @@ def test_can_create_a_task_manager():
     task_manager = TaskManager()
 
 
+def test_task_manager_starts_with_no_tasks():
+    task_manager = TaskManager()
 
+    assert task_manager.tasks == []
 
 
 def test_parse_add():
