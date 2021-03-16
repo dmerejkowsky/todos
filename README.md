@@ -7,7 +7,7 @@ Implementation of a task manager for the command line.
 * Install Python
 
 ```
-# create a virtualenv in .ven
+# create a virtualenv in .venv
 python3 -m venv .venv
 
 # install pytest in the virtualenv
